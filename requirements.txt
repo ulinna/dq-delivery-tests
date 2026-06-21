@@ -1,0 +1,2 @@
+# Python dependencies are added in later course modules (Block IV).
+# Example: psycopg2-binary, pytest, pytest-html
