@@ -88,39 +88,25 @@
 
 ## 4. DQ Best Practices for This Project
 
-*Added across Module 03 (Data Modeling), Module 04 (Medallion Architecture), Module 07 (Profiling)*
-
-### 4.1 Pre-Screening Checks
-
-*What do you check before any data even enters the pipeline? Reference your raw file inspection findings (Module 03) and physical model audit (Module 04).*
-
-[Your answer]
-
-### 4.2 Vital Checks by Dimension
-
-*A short checklist — for each of the 6 DQ dimensions, name at least one vital check that applies to this project's data. Full detail goes in Section 7.*
-
-[Your answer]
-
-### 4.3 Reconciliation Approach
+### 4.1 Reconciliation Approach
 
 *How will you verify that numbers match across layers (staging → standardized → curated → dashboard)? Which tables/metrics are reconciliation priorities for DQ_Delivery?*
 
 [Your answer]
 
-### 4.4 Profiling Metrics to Track
+### 4.2 Profiling Metrics to Track
 
 *Which metrics will you track over time, and why? (e.g., row counts per layer, null rates per critical column, job run times once pipelines run on a schedule)*
 
 [Your answer]
 
-### 4.5 SCD Mapping
+### 4.3 SCD Mapping
 
 *Which tables in DQ_Delivery are candidates for Slowly Changing Dimension tracking? Which SCD type applies, and why?*
 
 [Your answer]
 
-### 4.6 Data Contracts
+### 4.4 Data Contracts
 
 *What should a Data Contract define before data is accepted into the staging layer? Sketch the shape of a contract for one source (e.g., crm.customers_staging) — fields, types, required/optional, allowed values.*
 
