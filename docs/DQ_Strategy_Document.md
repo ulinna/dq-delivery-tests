@@ -108,18 +108,18 @@
 
 *Which testing types apply to this project, and at what level? Map them to the DQ_Delivery pipeline. If a testing type does not apply to DQ_Delivery, put a dash (—) and briefly explain why.*
 
-| Testing Type | Level | Applies Where in DQ_Delivery |
-|---|---|---|
-| Data Contract & Schema Validation | | |
-| Business Rules Validation | | |
-| Anomaly & Outlier Detection | | |
-| Data Migration Testing | | |
-| Idempotency Testing | | |
-| Volume Testing | | |
-| Data Masking & Governance | | |
-| Timeliness / SLA Monitoring | | |
-| Smoke Testing | | |
-| Regression Testing | | |
+| Testing Type | Level | Applies Where in DQ_Delivery | Comment |
+|---|---|---|---|
+| Data Contract & Schema Validation | | | |
+| Business Rules Validation | | | |
+| Anomaly & Outlier Detection | | | |
+| Data Migration Testing | | | |
+| Idempotency Testing | | | |
+| Volume Testing | | | |
+| Data Masking & Governance | | | |
+| Timeliness / SLA Monitoring | | | |
+| Smoke Testing | | | |
+| Regression Testing | | | |
 | Reconciliation Testing| | |
 
 ---
