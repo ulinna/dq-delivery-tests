@@ -71,14 +71,14 @@
 
 ### 3.3 Four Lines of Defense — Mapped to DQ_Delivery
 
-*Map the four lines of defense (Pre-screening → Staging Gate → Standardized Gate → Curated/Dashboard validation) to the actual DQ_Delivery pipeline. What gets checked at each line?*
+*Map the four lines of defense to the actual DQ_Delivery pipeline. What gets checked at each line?*
 
 | Line of Defense | What It Checks in DQ_Delivery |
 |---|---|
-| Pre-screening | |
-| Staging Gate | |
-| Standardized Gate | |
-| Curated / Dashboard validation | |
+| Pre-Screening | |
+| 1st Line of Defense | |
+| 2nd Line of Defense | |
+| 3rd Line of Defense | |
 
 ---
 
@@ -112,16 +112,17 @@
 
 ## 5. Testing Types & Levels
 
-*Which testing types apply to this project, and at what level? Map them to the Medallion-style layers in DQ_Delivery.*
+*Which testing types apply to this project, and at what level? Map them to the DQ_Delivery pipeline.*
 
-| Testing Type | Level | Applies Where in DQ_Delivery |
-|---|---|---|
-| Unit | Single table/column | |
-| Integration | Layer-to-layer | |
-| Reconciliation | Cross-layer | |
-| End-to-End | Source → Dashboard | |
-| Regression | | |
-| Smoke | | |
+| Testing Type | Level | Applies Where in DQ_Delivery | Reconciliation Notes |
+|---|---|---|---|
+| Transformation Testing | Unit | | |
+| Data Flow & Layer Integration | Integration | | |
+| Reconciliation | Cross-layer | | *How will you verify numbers match across layers (staging → standardized → curated → dashboard)? Which tables/metrics are priorities?* |
+| E2E Pipeline Validation | System | | |
+| Data Mart & Business Validation | UAT | | |
+| Regression | | | |
+| Smoke | | | |
 
 ---
 
@@ -151,16 +152,16 @@
 
 ## 7. DQ Dimensions & Measurement Structure
 
-*For each dimension: a measurement formula and an acceptance threshold, grounded in actual DQ_Delivery tables/columns.*
+*For each dimension, identify the most critical fields in DQ_Delivery, define how quality will be measured, and set an acceptable threshold.*
 
-| Dimension | Measurement Formula | Threshold | Example Column |
-|---|---|---|---|
-| Completeness | `null_rate = nulls / total_rows * 100` | | |
-| Accuracy | | | |
-| Consistency | | | |
-| Timeliness | | | |
-| Uniqueness | `duplicate_rate = duplicates / total_rows * 100` | | |
-| Validity | | | |
+| Dimension | Table | Column | Formula | Threshold | Priority | Comments |
+|---|---|---|---|---|---|---|
+| Completeness | | | | | | |
+| Uniqueness | | | | | | |
+| Validity | | | | | | |
+| Accuracy | | | | | | |
+| Consistency | | | | | | |
+| Timeliness | | | | | | |
 
 ---
 
