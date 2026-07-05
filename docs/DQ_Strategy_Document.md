@@ -13,8 +13,6 @@
 
 ## 1. Purpose & Scope
 
-*Added in: Module 01 — The Modern Data Ecosystem*
-
 ### 1.1 Business Goal
 
 *What is DQ_Delivery and what business problem does the data platform solve? Who uses the Operations Dashboard and what decisions does it support?*
@@ -58,8 +56,6 @@
 ---
 
 ## 3. Entry & Exit Criteria
-
-*Added in: Module 05 — DQA vs DQ: Scope, Role & Lifecycle*
 
 ### 3.1 Entry Criteria
 
@@ -116,8 +112,6 @@
 
 ## 5. Testing Types & Levels
 
-*Added in: Module 07*
-
 *Which testing types apply to this project, and at what level? Map them to the Medallion-style layers in DQ_Delivery.*
 
 | Testing Type | Level | Applies Where in DQ_Delivery |
@@ -132,8 +126,6 @@
 ---
 
 ## 6. Test Data & Environment (TDM Strategy)
-
-*Added in: Module 11 — Test Data Management*
 
 ### 6.1 PII Inventory
 
@@ -159,8 +151,6 @@
 
 ## 7. DQ Dimensions & Measurement Structure
 
-*Added in: Module 06 — 6 Dimensions of Data Quality*
-
 *For each dimension: a measurement formula and an acceptance threshold, grounded in actual DQ_Delivery tables/columns.*
 
 | Dimension | Measurement Formula | Threshold | Example Column |
@@ -176,7 +166,7 @@
 
 ## 8. Test Cases
 
-*Added incrementally from Module 09 (STM analysis) through Module 15 (Regex & Validation). Minimum 15 test cases, each traceable to a business rule.*
+*Minimum 15 test cases, each traceable to a business rule.*
 
 | ID | Table | Column | DQ Dimension | Business Rule | Expected Result | Module |
 |---|---|---|---|---|---|---|
