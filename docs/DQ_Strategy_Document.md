@@ -84,25 +84,19 @@
 
 ## 4. DQ Best Practices for This Project
 
-### 4.1 Reconciliation Approach
-
-*How will you verify that numbers match across layers (staging → standardized → curated → dashboard)? Which tables/metrics are reconciliation priorities for DQ_Delivery?*
-
-[Your answer]
-
-### 4.2 Profiling Metrics to Track
+### 4.1 Profiling Metrics to Track
 
 *Which metrics will you track over time, and why? (e.g., row counts per layer, null rates per critical column, job run times once pipelines run on a schedule)*
 
 [Your answer]
 
-### 4.3 SCD Mapping
+### 4.2 SCD Mapping
 
 *Which tables in DQ_Delivery are candidates for Slowly Changing Dimension tracking? Which SCD type applies, and why?*
 
 [Your answer]
 
-### 4.4 Data Contracts
+### 4.3 Data Contracts
 
 *What should a Data Contract define before data is accepted into the staging layer? Sketch the shape of a contract for one source (e.g., crm.customers_staging) — fields, types, required/optional, allowed values.*
 
