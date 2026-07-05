@@ -120,6 +120,7 @@
 | Timeliness / SLA Monitoring | | |
 | Smoke Testing | | |
 | Regression Testing | | |
+| Reconciliation Testing| | |
 
 ---
 
