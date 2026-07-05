@@ -106,7 +106,7 @@
 
 ## 5. Testing Types & Levels
 
-*Which testing types apply to this project, and at what level? Map them to the DQ_Delivery pipeline.*
+*Which testing types apply to this project, and at what level? Map them to the DQ_Delivery pipeline. If a testing type does not apply to DQ_Delivery, put a dash (—) and briefly explain why.*
 
 | Testing Type | Level | Applies Where in DQ_Delivery |
 |---|---|---|
