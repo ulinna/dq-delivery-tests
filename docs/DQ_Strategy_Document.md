@@ -108,15 +108,18 @@
 
 *Which testing types apply to this project, and at what level? Map them to the DQ_Delivery pipeline.*
 
-| Testing Type | Level | Applies Where in DQ_Delivery | Reconciliation Notes |
-|---|---|---|---|
-| Transformation Testing | Unit | | |
-| Data Flow & Layer Integration | Integration | | |
-| Reconciliation | Cross-layer | | *How will you verify numbers match across layers (staging → standardized → curated → dashboard)? Which tables/metrics are priorities?* |
-| E2E Pipeline Validation | System | | |
-| Data Mart & Business Validation | UAT | | |
-| Regression | | | |
-| Smoke | | | |
+| Testing Type | Level | Applies Where in DQ_Delivery |
+|---|---|---|
+| Data Contract & Schema Validation | | |
+| Business Rules Validation | | |
+| Anomaly & Outlier Detection | | |
+| Data Migration Testing | | |
+| Idempotency Testing | | |
+| Volume Testing | | |
+| Data Masking & Governance | | |
+| Timeliness / SLA Monitoring | | |
+| Smoke Testing | | |
+| Regression Testing | | |
 
 ---
 
