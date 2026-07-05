@@ -23,7 +23,7 @@
 
 ### 1.2 Data Sources in Scope
 
-*List the three source systems and what each one provides. One line per source is enough at this stage — detail comes later in Section 4.*
+*List the three source systems and what each one provides. One line per source is enough at this stage*
 
 | Source System | Format | Provides |
 |---|---|---|
@@ -47,8 +47,6 @@
 
 ## 2. Acronyms & Definitions
 
-*Added in: Module 02 — Storage Foundations*
-
 *Business and technical terms specific to this project. Add to this table as new terms appear in later modules — don't try to fill it all in now.*
 
 | Term | Definition |
@@ -61,7 +59,7 @@
 
 ## 3. Entry & Exit Criteria
 
-*Added in: Module 06 — DQA vs DQ: Scope, Role & Lifecycle*
+*Added in: Module 05 — DQA vs DQ: Scope, Role & Lifecycle*
 
 ### 3.1 Entry Criteria
 
@@ -90,7 +88,7 @@
 
 ## 4. DQ Best Practices for This Project
 
-*Added across Module 04 (Data Modeling), Module 05 (Medallion Architecture), Module 09 (Profiling)*
+*Added across Module 03 (Data Modeling), Module 04 (Medallion Architecture), Module 07 (Profiling)*
 
 ### 4.1 Pre-Screening Checks
 
@@ -132,7 +130,7 @@
 
 ## 5. Testing Types & Levels
 
-*Added in: Module 07 (6 Dimensions) and Module 08 (Testing Types & Levels)*
+*Added in: Module 07*
 
 *Which testing types apply to this project, and at what level? Map them to the Medallion-style layers in DQ_Delivery.*
 
@@ -175,7 +173,7 @@
 
 ## 7. DQ Dimensions & Measurement Structure
 
-*Added in: Module 07 — 6 Dimensions of Data Quality*
+*Added in: Module 06 — 6 Dimensions of Data Quality*
 
 *For each dimension: a measurement formula and an acceptance threshold, grounded in actual DQ_Delivery tables/columns.*
 
