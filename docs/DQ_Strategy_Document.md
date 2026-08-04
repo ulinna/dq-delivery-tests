@@ -167,10 +167,10 @@
 
 *Minimum 15 test cases, each traceable to a business rule.*
 
-| ID | Table | Column | DQ Dimension | Business Rule | Expected Result |
-|---|---|---|---|---|---|
-| TC-001 | | | | | |
-| TC-002 | | | | | |
+| ID | Table | Column | DQ Dimension | Business Rule | Expected Result |  Severity |
+|---|---|---|---|---|---|---|
+| TC-001 | | | | | | |
+| TC-002 | | | | | | |
 
 *Add rows as test cases are designed. Each test case implemented in SQL or pytest should reference its ID (e.g., a comment `-- TC-014` in the SQL file).*
 
