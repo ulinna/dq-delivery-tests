@@ -32,10 +32,7 @@ My work repository for **DQ Kolo — Course 1: Data Quality Foundations**.
 | `sql/` | SQL validation queries by DQ dimension |
 | `tests/` | pytest suite |
 | `docs/` | DQ Strategy Document (Phase 1) and phase notes |
-| `reports/` | Profiling results and test run reports |
-| `config/` | Database and rules configuration (later modules) |
 | `utils/` | Shared Python helpers |
-| `data/` | Local test fixtures (if needed) |
 
 ## Git workflow
 
